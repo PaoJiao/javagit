@@ -12,9 +12,20 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+
+    <com.magicarbon.example.javagit.user.dir>/data/tmp/test/java/tmpgit</com.magicarbon.example.javagit.user.dir>
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>com.github.git24j</groupId>
+      <artifactId>git24j</artifactId>
+      <version>1.0.0.20210904</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
